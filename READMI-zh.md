@@ -1,7 +1,7 @@
 # Fast360: 一个为技术而生的OCR模型竞技场 🚀
 
 <p align="center">
-  <img src="https://dl01.aifasthub.com/img/fast360-logo.png" alt="Fast360 Logo" width="150"/>
+  <img src="https://github.com/shijincai/fast360/blob/main/fast360-logo.png" alt="Fast360 Logo" width="150"/>
 </p>
 
   Fast360 是一个免费的在线平台，旨在解决一个核心技术痛点：快速、直观地评估和对比多个开源OCR引擎在特定文档上的真实表现。
