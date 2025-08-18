@@ -1,4 +1,4 @@
-[Read in Chinese (中文版)](https://github.com/shijincai/fast360/blob/main/README-zh.md)
+[Read in Chinese (中文版)](https://github.com/shijincai/fast360/blob/main/READMI-zh.md)
 
 # Fast360: A Tech-Focused OCR Model Arena 🚀
 
@@ -17,6 +17,10 @@
   <a href="#-tech-stack--implementation-details">
     <img src="https://img.shields.io/badge/Tech%20Stack-Node.js%20%7C%20Python%20%7C%20React-orange?style=for-the-badge" alt="Tech Stack">
   </a>
+</p>
+
+<p align="center">
+  <img src="https://github.com/shijincai/fast360/blob/main/nologin.gif" alt="Fast360 Logo" width="800"/>
 </p>
 
 ---
