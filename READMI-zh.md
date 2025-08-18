@@ -16,6 +16,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="https://github.com/shijincai/fast360/blob/main/nologin.gif" alt="Fast360 Logo" width="800"/>
+</p>
+
 ---
 
 ## 🤔 痛点：为什么我们需要一个“竞技场”？
